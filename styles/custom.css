@@ -177,6 +177,23 @@
     height: 100%;
 }
 
+.about-content-img:hover img {
+    animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    /*50% {*/
+    /*    transform: rotate(180deg);*/
+    /*}*/
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .about-content-img img:hover {
     filter: invert(1) hue-rotate(90deg);;
 }
@@ -239,6 +256,13 @@
     color: #9fa9b7;
     text-align: left;
     font-size: 13px;
+}
+
+#values {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 1023px) {

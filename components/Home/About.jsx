@@ -82,6 +82,12 @@ const About = (props) => {
                                     </div>
                                 </Col>
                             </Row>
+
+                            <Row id="values">
+                                <Col lg="2" className="p-1">
+
+                                </Col>
+                            </Row>
                         </div>
                     </Container>
                 </div>
