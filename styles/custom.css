@@ -189,19 +189,25 @@
     text-decoration: none;
 }
 
+.abt-zuCoin-img>div {
+    height: 590px;
+}
+
 .abt-zuCoin-img img {
     animation: mover .5s infinite alternate;
 }
 
 .white-paper {
     padding: 30px;
+    display: -moz-box;
     display: flex;
     flex-direction: column;
     background-color: #011936;
     width: 50%;
     position: absolute;
-    bottom: 0;
+    bottom: 14%;
     left: -15%;
+    height: 226px !important;
 }
 
 .white-paper h3 {
@@ -232,6 +238,7 @@
 .abt-zuCoin p {
     color: #9fa9b7;
     text-align: left;
+    font-size: 13px;
 }
 
 @media (max-width: 1023px) {

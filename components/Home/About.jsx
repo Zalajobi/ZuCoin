@@ -47,7 +47,7 @@ const About = (props) => {
                             </div>
 
                             <Row className="py-5">
-                                <Col lg="7" className="abt-zuCoin-img" >
+                                <Col lg="6" className="abt-zuCoin-img" >
                                     <div className="w-100 h-100">
                                         <Image className="w-100 h-100" src="https://res.cloudinary.com/zalajobi/image/upload/v1626452060/ZuCoin/Home/what-is-trim2_dtegvs.png" alt="What is ZuCoin"/>
                                     </div>
@@ -57,11 +57,11 @@ const About = (props) => {
 
                                         <p>ZuCoin was publicly launched with no tokens being kept by the development team.</p>
 
-                                        <a>view whitepaper<i className="icofont-arrow-right"/></a>
+                                        <a href="https://www.notion.so/Altrucoin-Live-Whitepaper-a46458c7613a4245bf64d240db972759" target="_blank" rel="noreferrer">view whitepaper<i className="icofont-arrow-right"/></a>
                                     </div>
                                 </Col>
 
-                                <Col lg="5" className="p-4">
+                                <Col lg="6" className="p-4">
                                     <div className="d-flex flex-column abt-zuCoin">
                                         <h5>The ZuCoin Protocol</h5>
 
@@ -76,8 +76,8 @@ const About = (props) => {
                                         <p className="font-weight-bold">We aim to remove the middlemen (banks) from the lending equation and instead send profits directly to ZuCoin holders and charitable organizations.</p>
 
                                         <div className="d-flex flex-row">
-                                            <a className="hero-btn mr-lg-auto">View Whitepaper</a>
-                                            <a className="hero-btn ml-lg-auto">Buy Now <i className="icofont-dotted-right"/></a>
+                                            <a className="hero-btn mr-lg-2">View Whitepaper</a>
+                                            <a className="hero-btn ml-lg-2">Buy Now <i className="icofont-dotted-right"/></a>
                                         </div>
                                     </div>
                                 </Col>
