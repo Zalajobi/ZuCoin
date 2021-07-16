@@ -52,13 +52,13 @@ const About = (props) => {
                                         <Image className="w-100 h-100" src="https://res.cloudinary.com/zalajobi/image/upload/v1626452060/ZuCoin/Home/what-is-trim2_dtegvs.png" alt="What is ZuCoin"/>
                                     </div>
 
-                                    <div className="white-paper">
-                                        <h3>public fair launch</h3>
+                                    {/*<div className="white-paper">*/}
+                                    {/*    <h3>public fair launch</h3>*/}
 
-                                        <p>ZuCoin was publicly launched with no tokens being kept by the development team.</p>
+                                    {/*    <p>ZuCoin was publicly launched with no tokens being kept by the development team.</p>*/}
 
-                                        <a href="https://www.notion.so/Altrucoin-Live-Whitepaper-a46458c7613a4245bf64d240db972759" target="_blank" rel="noreferrer">view whitepaper<i className="icofont-arrow-right"/></a>
-                                    </div>
+                                    {/*    <a href="https://www.notion.so/Altrucoin-Live-Whitepaper-a46458c7613a4245bf64d240db972759" target="_blank" rel="noreferrer">view whitepaper<i className="icofont-arrow-right"/></a>*/}
+                                    {/*</div>*/}
                                 </Col>
 
                                 <Col lg="6" className="p-4">
