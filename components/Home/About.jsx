@@ -46,7 +46,7 @@ const About = (props) => {
                                 </div>
                             </div>
 
-                            <Row className="py-5">
+                            <Row className="pt-5">
                                 <Col lg="6" className="abt-zuCoin-img" >
                                     <div className="w-100 h-100">
                                         <Image className="w-100 h-100" src="https://res.cloudinary.com/zalajobi/image/upload/v1626452060/ZuCoin/Home/what-is-trim2_dtegvs.png" alt="What is ZuCoin"/>

@@ -40,7 +40,7 @@ const Header = (props) => {
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav className="me-auto">
                             <Nav.Link className="mx-2 text-center" href="/">Home</Nav.Link>
-                            <Nav.Link className="mx-2 text-center" href="/about">About</Nav.Link>
+                            <Nav.Link className="mx-2 text-center" href="#about">About</Nav.Link>
                             <Nav.Link className="mx-2 text-center" href="/about">Roadmap</Nav.Link>
                             <Nav.Link className="mx-2 text-center" href="/about">Dashboard</Nav.Link>
 

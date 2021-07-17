@@ -6,7 +6,7 @@ import TextLoop from "react-text-loop";
 
 const HeroSlider = (props) => {
 
-    const messages = ["Decentralization", "Security", "Transparency", "Charity"];
+    const messages = ["Decentralization", "Security", "Transparency", "Charity", "Community", "Growth"];
 
     return (
         <React.Fragment>

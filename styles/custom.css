@@ -5,12 +5,12 @@
 
 .navbar-brand {
     color: #fff !important;
-    font-family: 'Electrolize', sans-serif !important;
+    /*font-family: 'Electrolize', sans-serif !important;*/
 }
 
 .nav-link {
     color: #fff !important;
-    font-family: 'Electrolize', sans-serif !important;
+    /*font-family: 'Electrolize', sans-serif !important;*/
 }
 
 .connect-wallet-button {
@@ -140,7 +140,7 @@
 }
 
 .about-container {
-    font-family: 'Electrolize', sans-serif;
+    /*font-family: 'Electrolize', sans-serif;*/
     font-weight: 700;
 }
 
@@ -263,6 +263,76 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+
+/*VALUES*/
+#values {
+    background-color: #00132b;
+}
+
+.value-col {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.value-col i {
+    color: #48a8f9;
+    font-size: 80px;
+    margin-bottom: 15px ;
+}
+
+.value-col h4 {
+    font-size: 18px;
+}
+
+.value-col p {
+    font-size: 12px;
+}
+
+#howitworks {
+    background-color: #00132b;
+}
+
+.works-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #011936;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in;
+}
+
+.works-container:hover {
+    transform: scale(1.2);
+}
+
+.works-img-container {
+    margin-top: 1rem;
+    width: 75px;
+    height: 75px;
+}
+
+.works-img-container img {
+    animation: mover .5s infinite alternate;
+}
+
+.works-container h2 {
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+.works-container p {
+    color: #919cab;
+    text-align: center;
+    padding: 10px 18px;
+    font-size: 14px;
 }
 
 @media (max-width: 1023px) {
