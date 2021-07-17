@@ -7,7 +7,7 @@ const HowItWorks = (props) => {
         <React.Fragment>
             <section id="howitworks" className="py-4">
                 <Container>
-                    <h1 className="text-white text-center">How it Works</h1>
+                    <h1 className="text-white text-center pb-3">How it Works</h1>
 
                     <Row>
                         <HowItWorksItem header="Frictionless Yield Generation"

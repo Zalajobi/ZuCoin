@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import About from "../components/Home/About";
 import Values from "../components/Home/Values";
 import HowItWorks from "../components/Home/HowItWorks";
+import WhyUs from "../components/Home/WhyUs";
 
 const Home = (props) => {
   return (
@@ -17,6 +18,8 @@ const Home = (props) => {
           <Values/>
 
           <HowItWorks/>
+
+          <WhyUs/>
       </React.Fragment>
   )
 }

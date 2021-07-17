@@ -298,6 +298,8 @@
 }
 
 .works-container {
+    height: 250px;
+    max-height: 301px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -322,7 +324,7 @@
 }
 
 .works-container h2 {
-    margin: 20px;
+    margin: 17px 20px;
     text-align: center;
     color: #fff;
     font-size: 25px;
@@ -334,6 +336,58 @@
     padding: 10px 18px;
     font-size: 14px;
 }
+
+/*WHYUS*/
+#whyus {
+    background-color: #00132b;
+}
+
+.whyus-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.whyus-content-container h5 {
+    color: #48a8f9;
+    margin-bottom: 10px;
+}
+
+.whyus-content-container h2 {
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.whyus-content-container p {
+    font-size: 14px;
+    color: #b1b9c6;
+}
+
+.issues {
+    background-color: #011936;
+    border-radius: 30px;
+    transition: transform 0.4s;
+}
+
+.issues:hover {
+    transform: scale(0.9);
+}
+
+.issues h3 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px 24px;
+}
+
+.issues p {
+    font-size: 14px;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    color: #fff;
+}
+
 
 @media (max-width: 1023px) {
     .about-content-container {
