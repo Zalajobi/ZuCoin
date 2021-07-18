@@ -6,6 +6,7 @@ import Values from "../components/Home/Values";
 import HowItWorks from "../components/Home/HowItWorks";
 import WhyUs from "../components/Home/WhyUs";
 import Roadmap from "../components/Home/Roadmap";
+import Tokenomics from "../components/Home/Tokenomics";
 
 const Home = (props) => {
   return (
@@ -19,6 +20,8 @@ const Home = (props) => {
           <Values/>
 
           <HowItWorks/>
+
+          <Tokenomics/>
 
           <WhyUs/>
 

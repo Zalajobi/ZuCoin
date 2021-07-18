@@ -389,6 +389,29 @@
 }
 
 
+/*TOKENOMICS*/
+#tokenomics {
+    background-color: #00132b;
+}
+
+.tokenomics-left {
+    background-color: #011936;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tokenomics-left h5 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.tokenomics-left p {
+    color: #fff;
+    font-size: 14px;
+}
+
+
 
 /*ROADMAP*/
 #timeline {
@@ -543,6 +566,30 @@
     animation: FadeInUp 700ms ease 1;
     animation-fill-mode: forwards;
     transform: translateY(15px);
+}
+
+#dashboard {
+    background-color: #00132b;
+}
+
+.token-info-col div {
+    border-radius: 30px;
+    background-color: #011936;
+    transition: all 0.3s;
+}
+
+.token-info-col:hover div {
+    transform: scale(1.15);
+}
+
+.token-info-col h2,
+.token-info-col p{
+    text-align: center;
+    color: #fff;
+}
+
+.token-info-col h2 {
+    font-size: 22px;
 }
 
 

@@ -41,8 +41,8 @@ const Header = (props) => {
                         <Nav className="me-auto">
                             <Nav.Link className="mx-2 text-center" href="/">Home</Nav.Link>
                             <Nav.Link className="mx-2 text-center" href="#about">About</Nav.Link>
-                            <Nav.Link className="mx-2 text-center" href="/about">Roadmap</Nav.Link>
-                            <Nav.Link className="mx-2 text-center" href="/about">Dashboard</Nav.Link>
+                            <Nav.Link className="mx-2 text-center" href="#timeline">Roadmap</Nav.Link>
+                            <Nav.Link className="mx-2 text-center" href="/dashboard">Dashboard</Nav.Link>
 
                             <a onClick={connectMetamask} className="connect-wallet-button mx-2 text-center d-flex align-items-center">{wallet}</a>
                         </Nav>
