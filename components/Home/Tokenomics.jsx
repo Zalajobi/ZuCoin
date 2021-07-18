@@ -26,9 +26,9 @@ const Tokenomics = (props) => {
         let maxTaxFee = await axios.get('https://zucoin.herokuapp.com/maxTaxFee')
         let liquidityFee = await axios.get('https://zucoin.herokuapp.com/liquidityfee')
         let maxTxAmount = await axios.get('https://zucoin.herokuapp.com/maxTxAmount')
-        let maxWalletSize = await axios.get('http://zucoin.herokuapp.com/maxWalletSize')
-        let name = await axios.get('http://zucoin.herokuapp.com/name')
-        let symbol = await axios.get('http://zucoin.herokuapp.com/symbol')
+        let maxWalletSize = await axios.get('https://zucoin.herokuapp.com/maxWalletSize')
+        let name = await axios.get('https://zucoin.herokuapp.com/name')
+        let symbol = await axios.get('https://zucoin.herokuapp.com/symbol')
 
 
 
