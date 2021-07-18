@@ -27,6 +27,7 @@ const Header = (props) => {
         account = accounts[0];
 
         setWallet(account)
+        localStorage.setItem('address', account);
     }
 
     const [wallet, setWallet] = useState('Connect Wallet');

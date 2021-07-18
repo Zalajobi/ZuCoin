@@ -572,10 +572,19 @@
     background-color: #00132b;
 }
 
-.token-info-col div {
+.token-info-col{
+    /*width: 16rem;*/
+    /*max-width: 18rem;*/
+    height: 16rem;
+    max-height: 18rem;
+}
+
+.token-info-col>div {
     border-radius: 30px;
     background-color: #011936;
     transition: all 0.3s;
+    width: 100%;
+    height: 100%;
 }
 
 .token-info-col:hover div {
