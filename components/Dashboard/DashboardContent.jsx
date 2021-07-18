@@ -37,9 +37,6 @@ const DashboardContent = (props) => {
         address = localStorage.getItem('address');
     });
 
-    useR
-
-
 
     return (
         <React.Fragment>
