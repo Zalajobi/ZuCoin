@@ -124,7 +124,7 @@ const WhyUs = (props) => {
 
                             <div className="d-flex flex-row">
                                 <a className="hero-btn mr-lg-2">View Whitepaper</a>
-                                <a className="hero-btn ml-lg-2">Buy Now <i className="icofont-dotted-right"></i></a>
+                                <a className="hero-btn ml-lg-2">Buy Now <i className="icofont-dotted-right"/></a>
                             </div>
                         </Col>
                     </Row>

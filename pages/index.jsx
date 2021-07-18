@@ -5,6 +5,7 @@ import About from "../components/Home/About";
 import Values from "../components/Home/Values";
 import HowItWorks from "../components/Home/HowItWorks";
 import WhyUs from "../components/Home/WhyUs";
+import Roadmap from "../components/Home/Roadmap";
 
 const Home = (props) => {
   return (
@@ -20,6 +21,8 @@ const Home = (props) => {
           <HowItWorks/>
 
           <WhyUs/>
+
+          <Roadmap/>
       </React.Fragment>
   )
 }
