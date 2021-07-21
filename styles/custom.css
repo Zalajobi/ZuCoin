@@ -610,3 +610,32 @@
         width: 100%;
     }
 }
+
+@media (max-width: 768px) {
+    .abt-zuCoin-img>div {
+        width: 250px !important;
+    }
+
+    .tokenomics-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 250px !important;
+    }
+
+    .why-us-img {
+        width:  250px !important;
+    }
+
+    .tokenomics-left p {
+        font-size: 9px;
+    }
+
+    .whyus-content-container h2 {
+        font-size: 20px;
+    }
+
+    .#progress-bar-container li .step-inner {
+        font-size: 9px;
+    }
+}

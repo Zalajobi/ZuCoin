@@ -28,7 +28,7 @@ const HeroSlider = (props) => {
                             </Col>
 
                             <Col lg="5" className="d-flex align-items-center justify-content-center">
-                                <div style={{width: '300px', height: '100%'}}>
+                                <div style={{width: '250px', height: '100%'}}>
                                     <Image className="d-flex align-items-center justify-content-center w-100 h-100" src="https://res.cloudinary.com/zalajobi/image/upload/v1626396125/ZuCoin/Home/4976424-removebg-preview_pclqoi.png" alt="Logo"/>
                                 </div>
                             </Col>

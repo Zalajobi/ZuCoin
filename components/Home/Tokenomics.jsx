@@ -69,7 +69,7 @@ const Tokenomics = (props) => {
                        </Col>
 
                         <Col lg="6" className="p-3">
-                            <div className="w-100" style={{height: '449px'}}>
+                            <div className="w-100 tokenomics-img" style={{height: '449px'}}>
                                 <Image alt="Tokenomics Details" src="https://res.cloudinary.com/zalajobi/image/upload/v1626615410/ZuCoin/Home/fee-distribution-1536x2048_nsas6v.jpg" className="w-100 h-100"/>
                             </div>
                         </Col>

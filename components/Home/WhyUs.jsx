@@ -118,7 +118,7 @@ const WhyUs = (props) => {
                         </Col>
 
                         <Col lg="5">
-                            <div className="p-3">
+                            <div className="p-3 why-us-img">
                                 <Image src="https://res.cloudinary.com/zalajobi/image/upload/v1626554004/ZuCoin/Home/setsapart_j96aua.png" alt="What sets us apart" className="w-100 h-100"/>
                             </div>
 
