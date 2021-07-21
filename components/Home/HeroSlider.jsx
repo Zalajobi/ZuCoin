@@ -15,7 +15,7 @@ const HeroSlider = (props) => {
                 <div>
                     <Container className="h-100">
                         <Row className="h-100">
-                            <Col lg="7" className="d-flex flex-column align-items-start justify-content-center h-100 p-5">
+                            <Col lg="7" className="d-flex flex-column align-items-start justify-content-center h-100 p-3">
                                 {/* eslint-disable-next-line react/no-children-prop */}
                                 <h1 className="text-white hero-text mt-5">The ZuCoin Protocol was built for <span><TextLoop children={messages} interval={5000} springConfig={{ stiffness: 180, damping: 8 }}/></span></h1>
 

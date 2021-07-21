@@ -612,6 +612,15 @@
 }
 
 @media (max-width: 768px) {
+
+    .hero-text {
+        font-size: 23px;
+    }
+
+    .hero-btn {
+        font-size: 14px;
+    }
+
     .abt-zuCoin-img>div {
         width: 250px !important;
     }
@@ -635,7 +644,7 @@
         font-size: 20px;
     }
 
-    .#progress-bar-container li .step-inner {
+    #progress-bar-container li .step-inner {
         font-size: 9px;
     }
 }
